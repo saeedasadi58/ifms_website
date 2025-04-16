@@ -42,7 +42,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>ArioTech</span>
+            <span data-translate="ariotech" >ArioTech</span>
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,29 +52,31 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html"><span data-translate="home">Home</span> <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-lang-change" href="index.html"><span data-translate="home">Home</span> <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"><span data-translate="about">About</span></a>
+                <a class="nav-link text-lang-change" href="about.html"><span data-translate="about">About</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html"><span data-translate="contactUs">Contact Us</span></a>
+                <a class="nav-link text-lang-change" href="contact.html"><span data-translate="contactUs">Contact Us</span></a>
               </li>
             </ul>
             <div class="quote_btn-container">
-              <a href="">
+              <a href="" class="text-lang-change" >
                 <span data-translate="call">Call</span> :
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i class="fa fa-phone" aria-hidden="true" style="margin: 0 10px 0 10px"></i>
                 <span>
-                 +982164545552
+                  982164545552
                 </span>
                 ,
                 <span>
-                 +989166634487
+                  989166634487
                 </span>
               </a>
               <div id="lang-switch" class="lang-switch" onclick="setLanguage(document.documentElement.lang === 'en' ? 'fa' : 'en')" title="Switch Language">
-                <i class="fa fa-globe" aria-hidden="true"></i>
+                <span data-translate="lang">
+                  EN
+                </span>
               </div>
             </div>
           </div>
@@ -90,9 +92,9 @@
             <div class="container ">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="detail-box">
-                    <h1 data-translate="mainTitle">Intelligent Fiber Monitoring System</h1>
-                    <p data-translate="mainDesc">
+                  <div class="detail-box ">
+                    <h1 data-translate="mainTitle" class="text-lang-change">Intelligent Fiber Monitoring System</h1>
+                    <p data-translate="mainDesc" class="text-lang-change">
                       Emerging Technologies Company:
                       Innovating the Future with Cutting-Edge Technologies
                     </p>
@@ -128,7 +130,7 @@
 
   <section class="service_section layout_padding">
     <div class="container">
-      <div class="heading_container heading_center">
+      <div class="heading_container heading_center text-lang-change">
         <h2 class="heading_style" data-translate="mainTitle">
           Intelligent Fiber Monitoring System (IFMS)
                 </h2>
@@ -238,7 +240,7 @@
     <div class="container  ">
       <div class="row">
         <div class="col-md-6">
-          <div class="detail-box">
+          <div class="detail-box text-lang-change">
             <h3 data-translate="generalInfo">
               General Information about us
             </h3>
@@ -609,30 +611,33 @@
   <section class="info_section layout_padding2">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="info_contact">
+        <div class="col-md-6">
+          <div class="info_contact text-lang-change">
             <h4 data-translate="address">
               Address
             </h4>
             <div class="contact_link_box">
-              <a href="">
+              <a href="" class="text-lang-change">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span data-translate="location">
                   Location :Iran Tehran Valiasr Street, Amirkabir University of Technology,ArioTech Emerging Technologies Company, 
                 </span>
               </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
+              <a href="" class="text-lang-change">
+                <i class="fa fa-phone" aria-hidden="true" style="margin: 0 10px 0 10px"></i>
                 <span>
-                 +982164545552
+                  982164545552
                 </span>
                 <span>
-                 +989166634487
+                  ,
+                </span>
+                <span>
+                  989166634487
                 </span>
               </a>
-              <a href="">
+              <a href=""class="text-lang-change">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
+                <span  >
                   info@ariotechno.com
                 </span>
               </a>
@@ -654,21 +659,21 @@
           </div> -->
         </div>
         <div class="col-md-3">
-          <div class="info_link_box">
+          <div class="info_link_box text-lang-change" >
             <h4 data-translate="links">
               Links
             </h4>
             <div class="info_links">
               <a class="active" href="index.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
                 <span data-translate="home">Home</span>
               </a>
               <a class="" href="about.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
                 <span data-translate="about">About</span>
               </a>
               <a class="" href="contact.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
                 <span data-translate="contactUs">Contact Us</span>
               </a>
             </div>
@@ -707,7 +712,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> <span data-translate="rights">All Rights Reserved By</span>
-        <a href="">ArioTech</a>
+        <a href="" data-translate="ariotech" >ArioTech</a>
       </p>
     </div>
   </footer>

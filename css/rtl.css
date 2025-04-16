@@ -21,6 +21,13 @@ html[dir="rtl"] .text-right {
     text-align: left !important;
 }
 
+html[dir="rtl"] .text-lang-change {
+    text-align: right !important;
+}
+html[dir="ltr"] .text-lang-change {
+    text-align: left !important;
+}
+
 /* Language switcher */
 .lang-switch {
     display: inline-block;
