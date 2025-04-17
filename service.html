@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Basic -->
@@ -13,14 +13,14 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Hostit</title>
-
+  <title>ArioTech</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
@@ -29,7 +29,8 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-
+  <!-- RTL style -->
+  <link href="css/rtl.css" rel="stylesheet" />
 </head>
 
 <body class="sub_page">
@@ -40,7 +41,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>Hostit</span>
+            <span data-translate="ariotech" >ArioTech</span>
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,33 +50,40 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
-              <li class="nav-item ">
-                <a class="nav-link" href="index.html"><span data-translate="home">Home</span> <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"><span data-translate="about">About</span></a>
-              </li>
               <li class="nav-item active">
-                <a class="nav-link" href="service.html"><span data-translate="services">Services</span></a>
+                <a class="nav-link text-lang-change" href="index.html"><span data-translate="home">Home</span> <span class="sr-only">(current)</span></a>
+              </li>
+                            
+              <li class="nav-item">
+                <a class="nav-link text-lang-change" href="service.html"><span data-translate="services">services</span></a>
+              </li>                            
+              <li class="nav-item">
+                <a class="nav-link text-lang-change" href="project.html"><span data-translate="project">services</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="price.html"><span data-translate="pricing">Pricing</span></a>
+                <a class="nav-link text-lang-change" href="about.html"><span data-translate="aboutUs">About</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html"><span data-translate="contactUs">Contact Us</span></a>
+                <a class="nav-link text-lang-change" href="contact.html"><span data-translate="contactUs">Contact Us</span></a>
               </li>
             </ul>
             <div class="quote_btn-container">
-              <form class="form-inline">
-                <button class="btn   nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
+              <a href="" class="text-lang-change" >
                 <span data-translate="call">Call</span> :
-                +01 123455678990
+                <i class="fa fa-phone" aria-hidden="true" style="margin: 0 10px 0 10px"></i>
+                <span>
+                  982164545552
+                </span>
+                ,
+                <span>
+                  989166634487
+                </span>
               </a>
+              <div id="lang-switch" class="lang-switch" onclick="setLanguage(document.documentElement.lang === 'en' ? 'fa' : 'en')" title="Switch Language">
+                <span data-translate="lang">
+                  EN
+                </span>
+              </div>
             </div>
           </div>
         </nav>
@@ -88,81 +96,148 @@
 
   <section class="service_section layout_padding">
     <div class="container">
-      <div class="heading_container heading_center">
-        <h2 data-translate="ourServices">Our Services</h2>
+      <div class="heading_container heading_center text-lang-change">
+        <h2 class="heading_style" data-translate="mainTitle">
+          Intelligent Fiber Monitoring System (IFMS)
+        </h2>
+        <br>
+        <h6 class="heading_style" data-translate="aboutDesc22">
+          Intelligent Fiber Monitoring System (IFMS)
+        </h6>
       </div>
     </div>
     <div class="container ">
       <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <div class="col-md-4">
+          <div class="box">
             <div class="img-box">
               <img src="images/s1.png" alt="">
             </div>
             <div class="detail-box">
-              <h4 data-translate="sharedHosting">Shared Hosting</h4>
-              <p data-translate="sharedHostingDesc">Generators on the Internet tend to repeat predefined chunks as necessary</p>
-              <a href=""><span data-translate="readMore">Read More</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              <h4 data-translate="customizableTestPlans">
+                Customizable Test Plans
+              </h4>
+              <p data-translate="customizableTestPlansDesc">
+                Customizable test plans for proactive maintenance.
+              </p>
+              
+              <p data-translate="customizableTestPlansDesc2">
+                Customizable test plans for proactive maintenance.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <div class="col-md-4">
+          <div class="box">
             <div class="img-box">
               <img src="images/s2.png" alt="">
             </div>
             <div class="detail-box">
-              <h4 data-translate="dedicatedHosting">Dedicated Hosting</h4>
-              <p data-translate="dedicatedHostingDesc">Generators on the Internet tend to repeat predefined chunks as necessary</p>
-              <a href=""><span data-translate="readMore">Read More</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              <h4 data-translate="realtimeFaultDetection">
+                Real-time Fault Detection & Localization
+              </h4>
+              <p data-translate="realtimeFaultDetectionDesc">
+                Instantly detects fiber breaks, degradations, and anomalies.
+              </p>
+              
+              <p data-translate="realtimeFaultDetectionDesc2">
+                Instantly detects fiber breaks, degradations, and anomalies.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 ">
-          <div class="box ">
+        <div class="col-md-4">
+          <div class="box">
             <div class="img-box">
               <img src="images/s3.png" alt="">
             </div>
             <div class="detail-box">
-              <h4 data-translate="cloudHosting">Cloud Hosting</h4>
-              <p data-translate="cloudHostingDesc">Generators on the Internet tend to repeat predefined chunks as necessary</p>
-              <a href=""><span data-translate="readMore">Read More</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              <h4 data-translate="webBasedDashboard">
+                Web-based Dashboard
+              </h4>
+              <p data-translate="webBasedDashboardDesc">
+                Web-based dashboard with multi-device access for seamless control.
+              </p>
+              
+              <p data-translate="webBasedDashboardDesc2">
+                Web-based dashboard with multi-device access for seamless control.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <br>
+        <br>
+
+        <div class="container">
+          <br>
+
+          <div class="heading_container heading_center text-lang-change">
+            <br>
+            <h6 class="heading_style" data-translate="aboutDesc23">
+              Intelligent Fiber Monitoring System (IFMS)
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
             <div class="img-box">
               <img src="images/s4.png" alt="">
             </div>
             <div class="detail-box">
-              <h4 data-translate="vpsHosting">VPS Hosting</h4>
-              <p data-translate="vpsHostingDesc">Generators on the Internet tend to repeat predefined chunks as necessary</p>
-              <a href=""><span data-translate="readMore">Read More</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              <h4 data-translate="easyIntegration">
+                Easy Integration
+              </h4>
+              <p data-translate="easyIntegrationDesc">
+                Easily integrates with existing network management systems.
+              </p>
+              <p data-translate="easyIntegrationDesc2">
+                Easily integrates with existing network management systems.
+              </p>
+              <p data-translate="easyIntegrationDesc3">
+                Easily integrates with existing network management systems.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <div class="col-md-4">
+          <div class="box">
             <div class="img-box">
               <img src="images/s5.png" alt="">
             </div>
             <div class="detail-box">
-              <h4 data-translate="wordpressHosting">Wordpress Hosting</h4>
-              <p data-translate="wordpressHostingDesc">Generators on the Internet tend to repeat predefined chunks as necessary</p>
-              <a href=""><span data-translate="readMore">Read More</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              <h4 data-translate="intelligentAnalysis">
+                Intelligent Analysis
+              </h4>
+              <p data-translate="intelligentAnalysisDesc">
+                Minimizes false alarms and enables intelligent root cause identification.
+              </p>
+              <p data-translate="intelligentAnalysisDesc2">
+                Minimizes false alarms and enables intelligent root cause identification.
+              </p>
+              <p data-translate="intelligentAnalysisDesc3">
+                Minimizes false alarms and enables intelligent root cause identification.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <div class="col-md-4">
+          <div class="box">
             <div class="img-box">
               <img src="images/s6.png" alt="">
             </div>
             <div class="detail-box">
-              <h4 data-translate="domainName">Domain Name</h4>
-              <p data-translate="domainNameDesc">Generators on the Internet tend to repeat predefined chunks as necessary</p>
-              <a href=""><span data-translate="readMore">Read More</span> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              <h4 data-translate="customAlerts">
+                Custom Alerts & Reporting
+              </h4>
+              <p data-translate="customAlertsDesc">
+                Adaptive alarm levels and detailed analytics for better decision-making.
+              </p>
+              <p data-translate="customAlertsDesc2">
+                Adaptive alarm levels and detailed analytics for better decision-making.
+              </p>
+              <p data-translate="customAlertsDesc3">
+                Adaptive alarm levels and detailed analytics for better decision-making.
+              </p>
             </div>
           </div>
         </div>
@@ -174,31 +249,42 @@
 
 
   <!-- info section -->
-
   <section class="info_section layout_padding2">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="info_contact">
-            <h4 data-translate="address">Address</h4>
+        <div class="col-md-6">
+          <div class="info_contact text-lang-change">
+            <h4 data-translate="address">
+              Address
+            </h4>
             <div class="contact_link_box">
-              <a href="">
+              <a href="" class="text-lang-change">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span data-translate="location">Location</span>
+                <span data-translate="location">
+                  Location :Iran Tehran Valiasr Street, Amirkabir University of Technology,ArioTech Emerging Technologies Company, 
+                </span>
               </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span data-translate="call">Call</span> +01 1234567890
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
+              <a href="" class="text-lang-change">
+                <i class="fa fa-phone" aria-hidden="true" style="margin: 0 10px 0 10px"></i>
                 <span>
-                  demo@gmail.com
+                  982164545552
+                </span>
+                <span>
+                  ,
+                </span>
+                <span>
+                  989166634487
+                </span>
+              </a>
+              <a href=""class="text-lang-change">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span  >
+                  info@ariotechno.com
                 </span>
               </a>
             </div>
           </div>
-          <div class="info_social">
+          <!-- <div class="info_social">
             <a href="">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
@@ -211,48 +297,58 @@
             <a href="">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
-          </div>
+          </div> -->
         </div>
         <div class="col-md-3">
-          <div class="info_link_box">
-            <h4 data-translate="links">Links</h4>
+          <div class="info_link_box text-lang-change" >
+            <h4 data-translate="links">
+              Links
+            </h4>
             <div class="info_links">
               <a class="" href="index.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
                 <span data-translate="home">Home</span>
               </a>
+              <a class="active" href="service.html">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
+                <span data-translate="services">services</span>
+              </a>
+              <a class="" href="project.html">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
+                <span data-translate="project">services</span>
+              </a>
               <a class="" href="about.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
                 <span data-translate="about">About</span>
               </a>
-              <a class="active" href="service.html">
-                <img src="images/nav-bullet.png" alt="">
-                <span data-translate="services">Services</span>
-              </a>
-              <a class="" href="price.html">
-                <img src="images/nav-bullet.png" alt="">
-                <span data-translate="pricing">Pricing</span>
-              </a>
               <a class="" href="contact.html">
-                <img src="images/nav-bullet.png" alt="">
+                <img src="images/nav-bullet.png" alt="" style="margin: 0 10px 0 10px" >
                 <span data-translate="contactUs">Contact Us</span>
               </a>
             </div>
           </div>
         </div>
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
           <div class="info_detail">
-            <h4 data-translate="info">Info</h4>
-            <p data-translate="infoDesc">necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful</p>
+            <h4>
+              Info
+            </h4>
+            <p>
+              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+            </p>
           </div>
-        </div>
-        <div class="col-md-3 mb-0">
-          <h4 data-translate="subscribe">Subscribe</h4>
+        </div> -->
+        <!-- <div class="col-md-3 mb-0">
+          <h4>
+            Subscribe
+          </h4>
           <form action="#">
-            <input type="text" placeholder="" data-translate="enterEmail" />
-            <button type="submit" data-translate="subscribe">Subscribe</button>
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
           </form>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -264,16 +360,22 @@
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> <span data-translate="rights">All Rights Reserved By</span> <a href="">ArioTech</a>
+        &copy; <span id="displayYear"></span> <span data-translate="rights">All Rights Reserved By</span>
+        <a href="" data-translate="ariotech" >ArioTech</a>
       </p>
     </div>
   </footer>
   <!-- footer section -->
 
+
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
+  <!-- translations -->
+  <script src="js/translations.js"></script>
+  <!-- language switcher -->
+  <script src="js/language-switcher.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
 

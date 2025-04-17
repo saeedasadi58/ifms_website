@@ -305,6 +305,7 @@ a:focus {
 
 .slider_section .detail-box {
   color: #ffffff;
+  line-height: 2rem;
 }
 
 .slider_section .detail-box h1 {
@@ -414,6 +415,7 @@ a:focus {
 .about_section .detail-box p {
   color: #999;
   margin: 5px 0 0 0 !important;
+  line-height: 2rem;
 }
 
 .about_section .detail-box a {
