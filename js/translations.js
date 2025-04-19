@@ -1,12 +1,14 @@
 const translations = {
     en: {
+        phoneNumber1:"982164545552",
+        phoneNumber2:"989166634487",
         lang: "FA",
         home: "Home",
-        services:"Services",
+        services: "Services",
         ariotech: "ArioTech",
         about: "About ArioTech",
         mission: "Mission",
-        project:`projects`,
+        project: `projects`,
         us: "Us",
         contactUs: "Contact Us",
         call: "Call",
@@ -30,48 +32,48 @@ const translations = {
         ictConsultant: "International Consultants in the ICT Industry",
         aiConsultant: "International Consultants in the Field of AI",
         networkConsultant: "International Consultants in the Field of 5G/6G",
-       
-        aboutDesc7:`ArioTech was founded in 2015 and became a member of the Amirkabir University of Technology Science and Technology Park in 2019. In 2021, the company received knowledge-based certification. With a strong focus on research and development (R&D) and collaboration with international consultants in ICT and AI, ArioTech provides innovative solutions in telecommunications, fiber optic networks, and advanced communication technologies.`,
-        aboutDesc8:`Awards and Achievements`,
-        aboutDesc9:`🏆 Best Optical Telecommunications Project – First Idea to Product Festival (MCI), 2023`,
-        aboutDesc10:`🏆 Young Researcher of the Year in Electrical Engineering – Academy of Sciences of Iran, 2023`,
-        aboutDesc11:`🏆 Best Ph.D. Thesis in Electrical Engineering – IEEE Iran Section, 2015`,
-        aboutDesc12:`🏆 Dr. Kazemi Ashtiani Innovation Award – National Elites Foundation, 2019`,
-        aboutDesc13:`🏆 Best Young Researcher Award – IEEE Iran Section, 2025`,
-        aboutDesc14:`🏆 Second Place in Applied Research – Khwarizmi Youth Festival, 2012`,
 
-        aboutDesc1:`ArioTech is committed to developing cutting-edge solutions in telecommunications, fiber optic sensing, artificial intelligence (AI), and communication networks through innovation, research, and development (R&D). Our goal is to enhance the efficiency, security, and sustainability of communication and industrial infrastructures by leveraging expert knowledge, emerging technologies, and international collaborations.` ,
+        aboutDesc7: `ArioTech was founded in 2015 and became a member of the Amirkabir University of Technology Science and Technology Park in 2019. In 2021, the company received knowledge-based certification. With a strong focus on research and development (R&D) and collaboration with international consultants in ICT and AI, ArioTech provides innovative solutions in telecommunications, fiber optic networks, and advanced communication technologies.`,
+        aboutDesc8: `Awards and Achievements`,
+        aboutDesc9: `🏆 Best Optical Telecommunications Project – First Idea to Product Festival (MCI), 2023`,
+        aboutDesc10: `🏆 Young Researcher of the Year in Electrical Engineering – Academy of Sciences of Iran, 2023`,
+        aboutDesc11: `🏆 Best Ph.D. Thesis in Electrical Engineering – IEEE Iran Section, 2015`,
+        aboutDesc12: `🏆 Dr. Kazemi Ashtiani Innovation Award – National Elites Foundation, 2019`,
+        aboutDesc13: `🏆 Best Young Researcher Award – IEEE Iran Section, 2025`,
+        aboutDesc14: `🏆 Second Place in Applied Research – Khwarizmi Youth Festival, 2012`,
+
+        aboutDesc1: `ArioTech is committed to developing cutting-edge solutions in telecommunications, fiber optic sensing, artificial intelligence (AI), and communication networks through innovation, research, and development (R&D). Our goal is to enhance the efficiency, security, and sustainability of communication and industrial infrastructures by leveraging expert knowledge, emerging technologies, and international collaborations.`,
         aboutDesc2: `🔹 Developing intelligent monitoring and network optimization technologies`,
         aboutDesc3: `🔹 Enhancing operational efficiency and reducing costs in telecommunications networks and data centers`,
         aboutDesc4: `🔹 Utilizing AI and software-defined networking (SDN) for intelligent communication management`,
         aboutDesc5: `🔹 Creating secure and reliable infrastructures for data transmission in critical industries`,
         aboutDesc6: `At ArioTech, we strive to deliver advanced technological solutions that address the evolving needs of the telecommunications industry and build a reliable and sustainable future for global communications.`,
-        
-        aboutDesc15:`Vision`,
-        aboutDesc16:`By 2031, ArioTech aims to be one of the leading knowledge-based companies in Iran and the region in the field of telecommunications and communication technologies.`,
-        aboutDesc17:`We seek to drive fundamental advancements in fiber optic networks, artificial intelligence, and software-defined communication systems through continuous R&D investment and collaboration with academic and industrial institutions.`,
-        aboutDesc18:`🔹 Leading the development of next-generation telecommunications technologies (5G/6G, ORAN, and smart networks)`,
-        aboutDesc19:`🔹 Becoming the primary provider of fiber optic monitoring systems and data center solutions`,
-        aboutDesc20:`🔹 Developing indigenous technologies for managing and optimizing communication networks`,
-        aboutDesc21:`📌 ArioTech is committed to innovation, cutting-edge technology, and quality excellence in shaping the future of telecommunications.`,
-        aboutDesc22:`ArioTech provides innovative and advanced solutions in telecommunications, network optimization, and smart communication systems, offering a wide range of specialized services:`,
-        aboutDesc23:`ArioTech develops state-of-the-art products to enhance the efficiency and security of communication networks.`,
 
-        aboutDesc24:`ArioTech has played a crucial role in executing key projects in telecommunications and network development. Some major projects include:`,
-        aboutDesc25:`Advisor to Iran Infrastructure Communications Company (TIC)`,
-        aboutDesc27:`Consulting on IP over WDM vs. IP over OTN technology selection`,
-        aboutDesc28:`Conducting training on OTN-DWDM and EON transmission systems`,
-        aboutDesc29:`Developing a roadmap for next-generation network transmission technologies`,
-        aboutDesc30:` `,
-        aboutDesc31:` `,
-        aboutDesc32:` `,
-        aboutDesc33:`Advisor to Mobile Telecommunication Company of Iran (MCI)`,
-        aboutDesc34:`O-RAN implementation and deployment of xAPPs for anomaly detection and traffic management`,
-        aboutDesc35:`Developing the Telco-Orchestration framework for SDN/NFV-based network management`,
-        aboutDesc36:`Projects for Sina Innovation Communication Systems`,
-        aboutDesc37:`Development of telecommunications network design software`,
-        aboutDesc38:`Design and implementation of OTN-DWDM control cards based on ASON/GMPLS`,
-        aboutDesc39:`Conducting six specialized training courses on WDM/OTN, ROADM, and SDN/GMPLS`,
+        aboutDesc15: `Vision`,
+        aboutDesc16: `By 2031, ArioTech aims to be one of the leading knowledge-based companies in Iran and the region in the field of telecommunications and communication technologies.`,
+        aboutDesc17: `We seek to drive fundamental advancements in fiber optic networks, artificial intelligence, and software-defined communication systems through continuous R&D investment and collaboration with academic and industrial institutions.`,
+        aboutDesc18: `🔹 Leading the development of next-generation telecommunications technologies (5G/6G, ORAN, and smart networks)`,
+        aboutDesc19: `🔹 Becoming the primary provider of fiber optic monitoring systems and data center solutions`,
+        aboutDesc20: `🔹 Developing indigenous technologies for managing and optimizing communication networks`,
+        aboutDesc21: `📌 ArioTech is committed to innovation, cutting-edge technology, and quality excellence in shaping the future of telecommunications.`,
+        aboutDesc22: `ArioTech provides innovative and advanced solutions in telecommunications, network optimization, and smart communication systems, offering a wide range of specialized services:`,
+        aboutDesc23: `ArioTech develops state-of-the-art products to enhance the efficiency and security of communication networks.`,
+
+        aboutDesc24: `ArioTech has played a crucial role in executing key projects in telecommunications and network development. Some major projects include:`,
+        aboutDesc25: `Advisor to Iran Infrastructure Communications Company (TIC)`,
+        aboutDesc27: `Consulting on IP over WDM vs. IP over OTN technology selection`,
+        aboutDesc28: `Conducting training on OTN-DWDM and EON transmission systems`,
+        aboutDesc29: `Developing a roadmap for next-generation network transmission technologies`,
+        aboutDesc30: ` `,
+        aboutDesc31: ` `,
+        aboutDesc32: ` `,
+        aboutDesc33: `Advisor to Mobile Telecommunication Company of Iran (MCI)`,
+        aboutDesc34: `O-RAN implementation and deployment of xAPPs for anomaly detection and traffic management`,
+        aboutDesc35: `Developing the Telco-Orchestration framework for SDN/NFV-based network management`,
+        aboutDesc36: `Projects for Sina Innovation Communication Systems`,
+        aboutDesc37: `Development of telecommunications network design software`,
+        aboutDesc38: `Design and implementation of OTN-DWDM control cards based on ASON/GMPLS`,
+        aboutDesc39: `Conducting six specialized training courses on WDM/OTN, ROADM, and SDN/GMPLS`,
 
 
         customizableTestPlans: `Telecommunications Network Design & Development`,
@@ -129,12 +131,14 @@ const translations = {
         fastSecureDesc: "Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm",
     },
     fa: {
+        phoneNumber1:"982164545552",
+        phoneNumber2:"989166634487",
         lang: "EN",
-        services:"خدمات",
+        services: "خدمات",
         home: "خانه",
-        ariotech: "آریو تک",
+        ariotech: "آریو‌تک",
         about: "درباره آریوتک",
-        project:`پروژه ها`,
+        project: `پروژه‌ها`,
         mission: "مأموریت ",
         us: "ما",
         contactUs: "ارتباط با ما",
@@ -155,50 +159,50 @@ const translations = {
         ictConsultant: "مشاور بین‌المللی در صنعت فناوری اطلاعات و ارتباطات",
         aiConsultant: "مشاور بین‌المللی در حوزه هوش مصنوعی",
         networkConsultant: "مشاور بین‌المللی در حوزه شبکه‌های نسل ۵ و ۶",
-        aboutDesc7:`شرکت فناوری‌های نوظهور آریوتک در سال ۱۳۹۴ تأسیس شد و در سال ۱۳۹۸ به عضویت پارک علم و فناوری دانشگاه صنعتی امیرکبیر درآمد. در سال ۱۴۰۰ موفق به دریافت تأییدیه دانش‌بنیان شد. آریوتک با تمرکز بر تحقیق و توسعه (R&D) و همکاری با مشاوران بین‌المللی در حوزه‌های ICT و هوش مصنوعی، راهکارهای نوآورانه‌ای را در زمینه مخابرات، شبکه‌های فیبر نوری و فناوری‌های پیشرفته ارتباطی ارائه می‌دهد.`,
-        aboutDesc8:`افتخارات شرکت`,
-        aboutDesc9:`🏆 کسب عنوان طرح برتر حوزه مخابرات نوری – اولین جشنواره ایده تا محصول همراه اول، ۱۴۰۲`,
-        aboutDesc10:`🏆 کسب عنوان پژوهشگر جوان برتر مهندسی برق – فرهنگستان علوم ایران، ۱۴۰۲`,
-        aboutDesc11:`🏆 دریافت جایزه برترین رساله دکتری مهندسی برق – IEEE ایران، ۲۰۱۵`,
-        aboutDesc12:`🏆 دریافت جایزه دکتر کاظمی آشتیانی – بنیاد ملی نخبگان، ۱۳۹۸`,
-        aboutDesc13:`🏆 دریافت جایزه پژوهشگر جوان برتر انجمن مهندسی برق و الکترونیک ایران (IEEE Iran Section )-ایران 2025`,
-        aboutDesc14:`🏆 کسب عنوان دومین طرح کاربردی برتر در جشنواره جوان خوارزمی-ایران، سال 1391`,
+        aboutDesc7: `شرکت فناوری‌های نوظهور آریوتک در سال ۱۳۹۴ تأسیس شد و در سال ۱۳۹۸ به عضویت پارک علم و فناوری دانشگاه صنعتی امیرکبیر درآمد. در سال ۱۴۰۰ موفق به دریافت تأییدیه دانش‌بنیان شد. آریوتک با تمرکز بر تحقیق و توسعه (R&D) و همکاری با مشاوران بین‌المللی در حوزه‌های ICT و هوش مصنوعی، راهکارهای نوآورانه‌ای را در زمینه مخابرات، شبکه‌های فیبر نوری و فناوری‌های پیشرفته ارتباطی ارائه می‌دهد.`,
+        aboutDesc8: `افتخارات شرکت`,
+        aboutDesc9: `🏆 کسب عنوان طرح برتر حوزه مخابرات نوری – اولین جشنواره ایده تا محصول همراه اول، ۱۴۰۲`,
+        aboutDesc10: `🏆 کسب عنوان پژوهشگر جوان برتر مهندسی برق – فرهنگستان علوم ایران، ۱۴۰۲`,
+        aboutDesc11: `🏆 دریافت جایزه برترین رساله دکتری مهندسی برق – IEEE ایران، ۲۰۱۵`,
+        aboutDesc12: `🏆 دریافت جایزه دکتر کاظمی آشتیانی – بنیاد ملی نخبگان، ۱۳۹۸`,
+        aboutDesc13: `🏆 دریافت جایزه پژوهشگر جوان برتر انجمن مهندسی برق و الکترونیک ایران (IEEE Iran Section )-ایران 2025`,
+        aboutDesc14: `🏆 کسب عنوان دومین طرح کاربردی برتر در جشنواره جوان خوارزمی-ایران، سال 1391`,
 
-        aboutDesc1:`شرکت فناوری‌های نوظهور آریوتک با تکیه بر نوآوری، تحقیق و توسعه (R&D)، مأموریت خود را توسعه راهکارهای پیشرفته در حوزه مخابرات، حسگرهای فیبر نوری، هوش مصنوعی و شبکه‌های ارتباطی تعریف کرده است. ما متعهد هستیم تا با بهره‌گیری از دانش تخصصی، فناوری‌های نوظهور و همکاری با متخصصان داخلی و بین‌المللی، زیرساخت‌های ارتباطی و صنعتی را بهینه‌سازی کنیم و امنیت و پایداری آن‌ها را ارتقا دهیم.` ,
+        aboutDesc1: `شرکت فناوری‌های نوظهور آریوتک با تکیه بر نوآوری، تحقیق و توسعه (R&D)، مأموریت خود را توسعه راهکارهای پیشرفته در حوزه مخابرات، حسگرهای فیبر نوری، هوش مصنوعی و شبکه‌های ارتباطی تعریف کرده است. ما متعهد هستیم تا با بهره‌گیری از دانش تخصصی، فناوری‌های نوظهور و همکاری با متخصصان داخلی و بین‌المللی، زیرساخت‌های ارتباطی و صنعتی را بهینه‌سازی کنیم و امنیت و پایداری آن‌ها را ارتقا دهیم.`,
         aboutDesc2: `🔹 توسعه و ارائه فناوری‌های هوشمند پایش و بهینه‌سازی شبکه`,
         aboutDesc3: `🔹 افزایش بهره‌وری و کاهش هزینه‌های عملیاتی در شبکه‌های مخابراتی و مراکز داده`,
         aboutDesc4: `🔹 به‌کارگیری هوش مصنوعی و سیستم‌های نرم‌افزارمحور برای مدیریت هوشمند ارتباطات`,
         aboutDesc5: `🔹 ایجاد بسترهای امن و پایدار برای انتقال داده در زیرساخت‌های حیاتی کشور`,
         aboutDesc6: `ما در آریوتک به دنبال آن هستیم که با ارائه راهکارهای فناورانه، نیازهای صنعت مخابرات و شبکه را برآورده کرده و بستری مطمئن و پایدار برای ارتباطات آینده ایجاد کنیم.`,
-       
-        aboutDesc15:`چشم‌انداز `,
-        aboutDesc16:`آریوتک در افق ۱۴۱۰، یکی از شرکت‌های برتر دانش‌بنیان ایران و منطقه در حوزه فناوری‌های ارتباطی و مخابراتی خواهد بود.`,
-        aboutDesc17:`ما در تلاش هستیم تا با سرمایه‌گذاری در تحقیق و توسعه و همکاری با مراکز علمی و صنعتی، تحولی بنیادین در حوزه شبکه‌های فیبر نوری، هوش مصنوعی و سیستم‌های نرم‌افزارمحور ایجاد کنیم`,
-        aboutDesc18:`🔹 پیشرو در ارائه فناوری‌های نسل آینده مخابرات (5G/6G، ORAN و شبکه‌های هوشمند)`,
-        aboutDesc19:`🔹 تبدیل شدن به مرجع اصلی توسعه سامانه‌های پایش فیبر نوری و مراکز داده`,
-        aboutDesc20:`🔹 ایجاد و توسعه فناوری‌های بومی برای مدیریت و بهینه‌سازی شبکه‌های ارتباطی`,
-        aboutDesc21:`آریوتک با تمرکز بر نوآوری، بهره‌گیری از فناوری‌های پیشرفته و تعهد به کیفیت، چشم‌انداز خود را در مسیر توسعه فناوری‌های ارتباطی آینده دنبال می‌کند.`,
-        
-        aboutDesc22:`آریوتک با ارائه راهکارهای نوآورانه و پیشرفته در حوزه مخابرات، بهینه‌سازی شبکه‌ها و ارتباطات هوشمند، طیف گسترده‌ای از خدمات تخصصی را ارائه می‌دهد:`,
-        aboutDesc23:`آریوتک با بهره‌گیری از فناوری‌های نوین، محصولاتی پیشرفته برای افزایش کارایی و امنیت شبکه‌های ارتباطی ارائه می‌دهد. محصولات ما شامل:`,
-        aboutDesc24:`آریوتک با اجرای پروژه‌های کلیدی در حوزه مخابرات و شبکه‌های ارتباطی، سهم بسزایی در توسعه زیرساخت‌های ارتباطی کشور دارد. برخی از مهم‌ترین پروژه‌های انجام‌شده عبارتند از:`,
-        
-        aboutDesc25:`مشاور شرکت ارتباطات زیرساخت`,
-        aboutDesc27:`مشاوره جهت انتخاب از بین  فن‌آوری‌های IPoverWDM و IPoverOTN`,
-        aboutDesc28:`برگزاری دوره آموزشی آشنایی با مبانی سیستم‌های انتقال OTN-DWDM و EON`,
-        aboutDesc29:`تدوین سند الزامات سرویس‌های نوین مبتنی بر نیازهای تحول دیجیتال`,
-        aboutDesc30:`آینده پژوهی فن‌آوری‌های نوین در توسعه شبکه‌های انتقال`,
-        aboutDesc31:`تدوین سند ره‌نگاشت توسعه فن‌آوری‌های شبکه‌های انتقال`,
-        aboutDesc32:`تدوین RFP پروژه توسعه شبکه انتقال با استفاده از فناوری DWDM 200Gbps`,
 
-        aboutDesc33:`مشاور شرکت ارتباطات سیار ایران (همراه اول)`,
-        aboutDesc34:`راه‌اندازی بستر O-RAN و اجرای xAPP های تشخیص ناهنجاری و مدیریت ترافیک`,
-        aboutDesc35:`تدوین سند Telco-Orchestration جهت مدیریت شبکه‌ی مبتنی بر فن‌آوری SDN/NFV`,
+        aboutDesc15: `چشم‌انداز `,
+        aboutDesc16: `آریوتک در افق ۱۴۱۰، یکی از شرکت‌های برتر دانش‌بنیان ایران و منطقه در حوزه فناوری‌های ارتباطی و مخابراتی خواهد بود.`,
+        aboutDesc17: `ما در تلاش هستیم تا با سرمایه‌گذاری در تحقیق و توسعه و همکاری با مراکز علمی و صنعتی، تحولی بنیادین در حوزه شبکه‌های فیبر نوری، هوش مصنوعی و سیستم‌های نرم‌افزارمحور ایجاد کنیم`,
+        aboutDesc18: `🔹 پیشرو در ارائه فناوری‌های نسل آینده مخابرات (5G/6G، ORAN و شبکه‌های هوشمند)`,
+        aboutDesc19: `🔹 تبدیل شدن به مرجع اصلی توسعه سامانه‌های پایش فیبر نوری و مراکز داده`,
+        aboutDesc20: `🔹 ایجاد و توسعه فناوری‌های بومی برای مدیریت و بهینه‌سازی شبکه‌های ارتباطی`,
+        aboutDesc21: `آریوتک با تمرکز بر نوآوری، بهره‌گیری از فناوری‌های پیشرفته و تعهد به کیفیت، چشم‌انداز خود را در مسیر توسعه فناوری‌های ارتباطی آینده دنبال می‌کند.`,
 
-        aboutDesc36:`شرکت سامانه‌های نوآوری ارتباطات سینا`,
-        aboutDesc37:`تولید نرم‌افزار طراحی شبکه مخابراتی`,
-        aboutDesc38:`طراحی و پیاده‌سازی کارت کنترلی شبکه‌های OTN-DWDM مبتنی بر ASON/GMPSL`,
-        aboutDesc39:`برگزاری 6 دوره آموزش سیستم‌های انتقال WDM/OTN، ROADM و SDN/GMPLS`,
+        aboutDesc22: `آریوتک با ارائه راهکارهای نوآورانه و پیشرفته در حوزه مخابرات، بهینه‌سازی شبکه‌ها و ارتباطات هوشمند، طیف گسترده‌ای از خدمات تخصصی را ارائه می‌دهد:`,
+        aboutDesc23: `آریوتک با بهره‌گیری از فناوری‌های نوین، محصولاتی پیشرفته برای افزایش کارایی و امنیت شبکه‌های ارتباطی ارائه می‌دهد. محصولات ما شامل:`,
+        aboutDesc24: `آریوتک با اجرای پروژه‌های کلیدی در حوزه مخابرات و شبکه‌های ارتباطی، سهم بسزایی در توسعه زیرساخت‌های ارتباطی کشور دارد. برخی از مهم‌ترین پروژه‌های انجام‌شده عبارتند از:`,
+
+        aboutDesc25: `مشاور شرکت ارتباطات زیرساخت`,
+        aboutDesc27: `مشاوره جهت انتخاب از بین  فن‌آوری‌های IPoverWDM و IPoverOTN`,
+        aboutDesc28: `برگزاری دوره آموزشی آشنایی با مبانی سیستم‌های انتقال OTN-DWDM و EON`,
+        aboutDesc29: `تدوین سند الزامات سرویس‌های نوین مبتنی بر نیازهای تحول دیجیتال`,
+        aboutDesc30: `آینده پژوهی فن‌آوری‌های نوین در توسعه شبکه‌های انتقال`,
+        aboutDesc31: `تدوین سند ره‌نگاشت توسعه فن‌آوری‌های شبکه‌های انتقال`,
+        aboutDesc32: `تدوین RFP پروژه توسعه شبکه انتقال با استفاده از فناوری DWDM 200Gbps`,
+
+        aboutDesc33: `مشاور شرکت ارتباطات سیار ایران (همراه اول)`,
+        aboutDesc34: `راه‌اندازی بستر O-RAN و اجرای xAPP های تشخیص ناهنجاری و مدیریت ترافیک`,
+        aboutDesc35: `تدوین سند Telco-Orchestration جهت مدیریت شبکه‌ی مبتنی بر فن‌آوری SDN/NFV`,
+
+        aboutDesc36: `شرکت سامانه‌های نوآوری ارتباطات سینا`,
+        aboutDesc37: `تولید نرم‌افزار طراحی شبکه مخابراتی`,
+        aboutDesc38: `طراحی و پیاده‌سازی کارت کنترلی شبکه‌های OTN-DWDM مبتنی بر ASON/GMPSL`,
+        aboutDesc39: `برگزاری 6 دوره آموزش سیستم‌های انتقال WDM/OTN، ROADM و SDN/GMPLS`,
 
 
         customizableTestPlans: `طراحی و توسعه شبکه‌های مخابراتی`,
@@ -209,7 +213,7 @@ const translations = {
         realtimeFaultDetectionDesc: `تحلیل کیفیت خدمات (QoS) و مدیریت ترافیک شبکه`,
         realtimeFaultDetectionDesc2: `مدیریت منابع شبکه با هوش مصنوعی`,
 
-        webBasedDashboard:`مشاوره تخصصی و آموزشی در حوزه ارتباطات`,
+        webBasedDashboard: `مشاوره تخصصی و آموزشی در حوزه ارتباطات`,
         webBasedDashboardDesc: `مشاوره در انتخاب فناوری‌های نوین شبکه`,
         webBasedDashboardDesc2: `برگزاری دوره‌های تخصصی OTN، DWDM و PoN (FTTx)`,
 
