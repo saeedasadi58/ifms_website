@@ -157,6 +157,33 @@ const translations = {
         dos_service_desc3: "What makes Ario-DAS stand out is its emphasis on operational efficiency and enhanced security. Through continuous monitoring and instant alerts, it minimizes response times to potential threats, reducing risks and maintenance costs for critical assets.",
         dos_service_title4: "Advanced Features for Superior Management",
         dos_service_desc4: "Compatible with Geographic Information Systems (GIS), Ario-DAS enables accurate mapping of events and supports advanced analytics for pattern recognition. The user-friendly software interface includes dashboards for real-time data visualization, historical reporting, and integration with AI for predictive maintenance. Perfect for perimeter fencing, pipeline integrity, and traffic surveillance, Ario-DAS delivers reliable, high-resolution insights to keep your operations secure and efficient.",
+        
+        news:"news",
+
+        news_title:"A Significant Step Toward Technological Self-Sufficiency",
+        news_desc:`Researchers at Amirkabir University of Technology have developed an advanced intelligent monitoring system for fiber-optic networks. This innovative system aims to improve the stability, security, and resilience of Iran’s National Information Network. The achievement marks a major milestone in reducing reliance on foreign technologies and strengthening national capabilities in communication infrastructure.`,
+
+        news_title2:"Cutting-Edge Technology and Core System Capabilities",
+        news_desc2:`The system leverages OTDR technology and advanced artificial intelligence algorithms to detect even the smallest irregularities in fiber-optic cables. Issues such as micro-breaks, abnormal bending, improper splicing, or sudden signal changes are identified with high precision.
+Once analyzed, the system accurately locates the fault on a digital map, enabling rapid deployment of maintenance teams. This greatly reduces downtime and prevents disruptions that could affect large-scale communication services.`,
+
+        news_title3:"Cost Reduction and Operational Efficiency",
+        news_desc3:`According to the development team, this intelligent system can reduce maintenance and operational costs by up to 50 percent.
+By minimizing unnecessary field inspections, improving accuracy in fault detection, and automating diagnostic processes, the system significantly enhances operational efficiency for operators and network managers.`,
+
+        news_title4:"Development Path and System Enhancements",
+        news_desc4:`The project began in 2020 with an initial version capable of monitoring only four fiber strands. Over time, the system advanced to a 64-port configuration, allowing the monitoring of dozens of active or dark fiber strands at distances up to 150 kilometers.
+Additionally, the system includes a comprehensive web-based platform offering features such as user management, advanced reporting, automated test scheduling, smart alerts, and multi-device synchronization.`,
+
+        news_title5:"A Competitive Domestic Alternative to Foreign Products",
+        news_desc5:`Project leaders highlight that the system’s performance is comparable to international products and can significantly reduce the need for importing expensive monitoring equipment.
+They emphasize that widespread adoption of this system will play a vital role in strengthening the resilience of the National Information Network and ensuring the reliability and security of communications across the country.`,
+
+        news_title6:"A Milestone in Smart Management of Optical Infrastructure",
+        news_desc6:`With the growing demand for high-speed connectivity and the expansion of fiber-optic networks, this domestically developed system represents a transformative step in modern infrastructure monitoring. It reinforces national technological capabilities and supports the long-term stability and development of secure digital infrastructure.`,
+
+        news_link_text:"News source",
+
     },
     fa: {
         phoneNumber1: "982164545552",
@@ -314,5 +341,25 @@ const translations = {
         dos_service_desc3: "آنچه Ario-DAS را متمایز می‌کند، تمرکز آن بر کارایی عملیاتی و امنیت بهبودیافته است. از طریق نظارت مداوم و هشدارهای فوری، زمان پاسخ به تهدیدهای احتمالی را به حداقل می‌رساند و ریسک‌ها و هزینه‌های نگهداری دارایی‌های حیاتی را کاهش می‌دهد.",
         dos_service_title4: "ویژگی‌های پیشرفته برای مدیریت برتر",
         dos_service_desc4: "این سیستم با سیستم‌های اطلاعات جغرافیایی (GIS) سازگار است و نقشه‌برداری دقیق رویدادها را امکان‌پذیر می‌کند، همچنین از تحلیل‌های پیشرفته برای تشخیص الگوها پشتیبانی می‌نماید. رابط نرم‌افزاری کاربرپسند شامل داشبوردهایی برای نمایش داده‌های زمان واقعی، گزارش‌گیری تاریخی و ادغام با هوش مصنوعی برای نگهداری پیش‌بینی‌کننده است. ایده‌آل برای حصارکشی محیطی، یکپارچگی خطوط لوله و نظارت ترافیک، Ario-DAS بینش‌های قابل اعتماد و با رزولوشن بالا ارائه می‌دهد تا عملیات شما ایمن و کارآمد بماند.",
+    
+        news:"اخبار",
+        news_title:"گامی مهم در خودکفایی فناوری‌های ارتباطی",
+        news_desc:"محققان دانشگاه صنعتی امیرکبیر در یک طرح ملی و پیشرفته، موفق به طراحی و ساخت سامانه‌ای هوشمند برای پایش شبکه‌های فیبر نوری شده‌اند. این سامانه با هدف افزایش پایداری، ارتقای امنیت و تضمین تداوم خدمات شبکه ملی اطلاعات توسعه یافته و دستاوردی مهم برای کشور در مسیر کاهش وابستگی به تجهیزات خارجی محسوب می‌شود.",
+        news_title2:"فناوری به‌کاررفته و قابلیت‌های اصلی سامانه",
+        news_desc2:`این سامانه با بهره‌گیری از فناوری OTDR و الگوریتم‌های هوش مصنوعی، قادر است کوچک‌ترین ناهنجاری‌ها در کابل‌های فیبر نوری را شناسایی کند. تشخیص مواردی مانند شکستگی، خمش غیرعادی، اتصالات نامناسب و تغییرات ناگهانی سیگنال با دقت بالا انجام می‌شود.
+            سامانه پس از تحلیل شرایط، محل دقیق مشکل را روی نقشه نشان می‌دهد و امکان اعزام سریع تیم‌های فنی را فراهم می‌سازد. این امر زمان رفع خرابی را کاهش داده و از ایجاد قطعی‌های گسترده جلوگیری می‌کند.`,
+        news_title3:"کاهش هزینه‌ها و افزایش بهره‌وری",
+        news_desc3:`به‌گفته تیم توسعه‌دهنده، این سامانه می‌تواند هزینه‌های نگهداری شبکه فیبر نوری را تا ۵۰ درصد کاهش دهد.
+کاهش بازدیدهای میدانی غیرضروری، مدیریت هوشمند اختلالات و شناسایی سریع خطاها از عوامل مهم در کاهش هزینه‌ها به شمار می‌روند. این ویژگی به اپراتورها و سازمان‌های متولی شبکه کمک می‌کند تا مدیریت زیرساخت‌های نوری را با بهره‌وری بالاتر انجام دهند.`,
+        news_title4:"سیر توسعه و پیشرفت‌های نسخه‌های مختلف سامانه",
+        news_desc4:`تحقیقات بر روی این محصول از سال ۱۳۹۹ آغاز شد. نسخه نخست تنها قادر به پایش چهار تار فیبر نوری بود؛ اما با توسعه‌های انجام‌شده، نسخه جدید اکنون دارای ۶۴ پورت است و می‌تواند ده‌ها تار فیبر نوری روشن یا تاریک را تا فاصله ۱۵۰ کیلومتری پایش کند.
+نرم‌افزار تحت وب همراه این سامانه نیز امکاناتی مانند مدیریت کاربران، گزارش‌گیری پیشرفته، زمان‌بندی آزمون‌ها، هشدارهای خودکار و شبکه‌سازی چند دستگاه را پشتیبانی می‌کند.`,
+        news_title5:"جایگزینی رقابتی برای نمونه‌های خارجی",
+        news_desc5:`کارشناسان پروژه تأکید کرده‌اند که این محصول کاملاً توان رقابت با نمونه‌های خارجی را دارد و می‌تواند نیاز کشور به تجهیزات وارداتی را کاهش دهد.
+استفاده گسترده از این سامانه می‌تواند نقش حیاتی در افزایش تاب‌آوری شبکه ملی اطلاعات، کاهش اختلالات و تقویت امنیت ارتباطات ایفا کند.`,
+        news_title6:"نقطه عطفی در مدیریت هوشمند زیرساخت‌های نوری",
+        news_desc6:`با توجه به اهمیت فزاینده ارتباطات مبتنی بر فیبر نوری، توسعه این سامانه داخلی می‌تواند تحولی اساسی در مدیریت هوشمند زیرساخت‌های حیاتی کشور ایجاد کند و گامی مهم در مسیر خودکفایی فناوری‌های پیشرفته به شمار آید.`,
+        news_link_text:"مرجع خبر",
+
     }
 };
